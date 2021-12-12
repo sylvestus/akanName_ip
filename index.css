@@ -124,3 +124,10 @@ button {
 .newsletter .subscribe input {
   width: 350px;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 100px;
+}
