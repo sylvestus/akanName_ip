@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  font-family: "Playfair Display", serif;
+  height: auto;
+  overflow-x: hidden;
+}
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #d1cfa8;
+}
+.navbar .fa {
+  visibility: hidden;
+}
+.navbar .logo {
+  width: 10%;
+  display: inline;
+}
+.navbar .logo img {
+  height: 100%;
+  width: 100%;
+  display: inline;
+}
+.navbar .navbar_elements {
+  display: block;
+
+  width: 80%;
+}
+
+.navbar .navbar_elements li {
+  display: inline;
+  padding-left: 15%;
+  margin-right: 1px;
+  transition: 0.2s;
+}
