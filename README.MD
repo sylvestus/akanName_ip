@@ -5,7 +5,7 @@
 ## Description
 Most people do know when their birthdays are, but some might not know what day of the week they were born.
 Akan-Naming is an online naming app which provides you with the day of the week you were born and ,
-name according to the day of the week you were born, this naming convention is called akran naming
+name according to the day of the week you were born and your gender, this naming convention is called akran naming
 ## Setup/Installation Requirements
 This site requires vs code, bootsrap, live server,google chrome and a reliable internet connection
 This site is hosted in gh-pages on ..............url
