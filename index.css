@@ -218,4 +218,23 @@ button {
   margin-bottom: 30px;
  
 }
+
+.newsletter {
+  display: flex;
+ flex-direction: column;
+ 
+}
+.newsletter .comment{
+  margin: auto;
+}
+
+.newsletter .subscribe{
+  margin: auto;
+ padding-bottom: 20px;
+}
+
+.newsletter .subscribe input {
+  width: 80%;
+  margin: auto;
+}
 }
