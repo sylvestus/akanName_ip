@@ -141,4 +141,8 @@ button {
     font-size: 32px;
     cursor: pointer;
   }
-}
+  .navbar {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
