@@ -146,3 +146,17 @@ button {
     height: 200px;
     overflow: hidden;
   }
+
+.navbar .logo {
+  width: 40%;
+  display: inline;
+}
+
+.navbar .logo img {
+  height: 90%;
+  width: 90%;
+  display: inline;
+}
+  .bar_logo{
+      margin-top: 2px;
+  }
