@@ -205,4 +205,17 @@ button {
   margin: 20px;
 }
 
+.our_service{
+  width: 100vw;
+}
+.our_service form{
+  width: 85vw;
+  height: 350px;
+  padding: 5px;
+  margin: auto;
+  box-shadow: 2px, 3px, 5px gray;
+  
+  margin-bottom: 30px;
+ 
+}
 }
