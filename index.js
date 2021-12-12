@@ -134,3 +134,10 @@ function birthday() {
     }
   }
 }
+
+//function to show menu elements
+ var showMenu=function (){
+ document.getElementById("navbar_elements").style.right="0px"
+ document.getElementById("bar_logo").style.visibility="hidden"                              
+
+}
