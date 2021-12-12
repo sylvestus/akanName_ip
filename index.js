@@ -141,3 +141,9 @@ function birthday() {
  document.getElementById("bar_logo").style.visibility="hidden"                              
 
 }
+//function to hide menu elements`
+function hideMenu(){
+  var navbarElements = document.getElementById("navbar_elements");
+  navbarElements.style.right="-200px"
+  document.getElementById("bar_logo").style.visibility="visible" 
+}
