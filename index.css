@@ -160,3 +160,22 @@ button {
   .bar_logo{
       margin-top: 2px;
   }
+  
+   .navbar .navbar_elements {
+    position: absolute;
+    background-color: #5d9f89;
+    height: 40vh;
+    width: 150px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transform: 1s;
+  }
+
+  .navbar .navbar_elements li {
+    position: relative;
+    z-index: 2;
+    
+  }
+}
