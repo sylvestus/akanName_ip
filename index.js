@@ -25,6 +25,10 @@ function birthday() {
       !bdayArray[2].match(/^\d\d$/)
     ) {
       alert("invalid Date");
+    } else if (parseInt(bdayArray[1]) > 12) {
+      alert("invalid date");
+    } else if (parseInt(bdayArray[2]) > 31) {
+      alert("invalid date");
     } else {
       var dow = function (year, century, month, day) {
         var year = parseInt(bdayArray[0]);
