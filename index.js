@@ -40,8 +40,8 @@ function birthday() {
             day) %
           7;
         var theDay = Math.ceil(result);
-//day of the week switch
-        
+        //day of the week switch
+
         var day;
         switch (theDay) {
           case 0:
@@ -67,10 +67,11 @@ function birthday() {
         }
         //male gender name switch
         document.getElementById("tell").innerHTML = "you wer born on " + day;
-        
-        var gender = document.querySelector('input[name = "gender"]:checked').value;
-        if (gender === "male")
-        {
+
+        var gender = document.querySelector(
+          'input[name = "gender"]:checked'
+        ).value;
+        if (gender === "male") {
           var name;
           switch (theDay) {
             case 0:
@@ -93,57 +94,51 @@ function birthday() {
               break;
             case 6:
               name = "Kwame";
-              
           }
-          document.getElementById("Akran").innerHTML = "your Akan name is " + name;
+          document.getElementById("Akran").innerHTML =
+            "your Akan name is " + name;
         }
         //female gender name switch
-        else{
-
-        var name
-        switch (theDay) {
-          case 0:
-            name = "Akosua";
-            break;
-          case 1:
-            name = "Adwoa";
-            break;
-          case 2:
-            name = "Abenaa";
-            break;
-          case 3:
-            name = "Akua";
-            break;
-          case 4:
-            name = "Yaa";
-            break;
-          case 5:
-            name = "Afua";
-            break;
-          case 6:
-            name = "Ama";
-             
-      }
-      document.getElementById("Akran").innerHTML = "your name is " + name;
+        else {
+          var name;
+          switch (theDay) {
+            case 0:
+              name = "Akosua";
+              break;
+            case 1:
+              name = "Adwoa";
+              break;
+            case 2:
+              name = "Abenaa";
+              break;
+            case 3:
+              name = "Akua";
+              break;
+            case 4:
+              name = "Yaa";
+              break;
+            case 5:
+              name = "Afua";
+              break;
+            case 6:
+              name = "Ama";
+          }
+          document.getElementById("Akran").innerHTML = "your name is " + name;
         }
-
       };
       dow();
-
-      
     }
   }
 }
 
 //function to show menu elements
- var showMenu=function (){
- document.getElementById("navbar_elements").style.right="0px"
- document.getElementById("bar_logo").style.visibility="hidden"                              
-
-}
+var showMenu = function () {
+  document.getElementById("navbar_elements").style.right = "0px";
+  document.getElementById("bar_logo").style.visibility = "hidden";
+};
 //function to hide menu elements`
-function hideMenu(){
+function hideMenu() {
   var navbarElements = document.getElementById("navbar_elements");
-  navbarElements.style.right="-200px"
-  document.getElementById("bar_logo").style.visibility="visible" 
+  navbarElements.style.right = "-200px";
+  document.getElementById("bar_logo").style.visibility = "visible";
 }
