@@ -193,4 +193,16 @@ button {
     z-index: 0;
   }
 
+  .advert {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+  }
+
+.advert p {
+  text-align: start;
+  overflow: hidden;
+  margin: 20px;
+}
+
 }
