@@ -1,6 +1,7 @@
 
 # AKAN NAMING WEBSITE
-#### This is a website designed to take in user bithday and give the day of the week they were born and their akan name, 31 oct 2021
+![Website image](https://github.com/sylvestus/akanName_ip/blob/master/images/page.png)
+#### This is a website designed to take in user bithday and give the day of the week they were born and their akan name, 11 DEC 2021
 #### By ** sylvestus sigei **
 ## Description
 Most people do know when their birthdays are, but some might not know what day of the week they were born.
