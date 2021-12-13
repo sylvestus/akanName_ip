@@ -237,4 +237,12 @@ button {
   width: 80%;
   margin: auto;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 100px;
+}
 }
