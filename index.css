@@ -163,7 +163,7 @@ button {
   
    .navbar .navbar_elements {
     position: absolute;
-    background-color: #5d9f89;
+    background-color: transparent;
     height: 40vh;
     width: 150px;
     top: 0;
