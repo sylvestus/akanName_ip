@@ -83,7 +83,12 @@ h3 {
 form input {
   color: #0d4a85;
   bottom: 0px;
-  
+}
+
+form  #dob{
+  width: 300px;
+  margin-bottom: 5px;
+  outline: black;
 }
 label {
   color: #0d4a85;
