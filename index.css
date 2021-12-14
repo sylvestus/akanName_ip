@@ -55,15 +55,16 @@ h3 {
 }
 .akran_img img {
   height: 60%;
-  width: 60%;
+  width: 58%;
 }
 .advert {
   margin-top: 20px;
   float: right;
   width: 40%;
+  margin: 2px;
 }
 .advert p {
-  text-align: center;
+  text-align: start;
   overflow: hidden;
 }
 
@@ -82,6 +83,7 @@ h3 {
 .form input {
   color: #0d4a85;
   bottom: 0px;
+  
 }
 label {
   color: #0d4a85;
@@ -90,6 +92,8 @@ label {
 }
 button {
   border: none;
+  border-radius: 10px;
+  padding: 10px;
 }
 .our_service form .result {
   background-color: wheat;
@@ -108,11 +112,17 @@ button {
   display: flex;
   justify-content: space-around;
 }
+.newsletter .comment{
+  margin-top: 10px;
+}
+
 .newsletter .comment input {
-  height: 200px;
+  
+  height: 100px;
   width: 300px;
   border-radius: 20px;
   border: none;
+  
 }
 .newsletter .comment button {
   margin-bottom: 20px;
@@ -128,6 +138,7 @@ button {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 5px;
   padding-left: 80px;
   padding-right: 100px;
 }
@@ -187,6 +198,7 @@ button {
   }
 
   .akran_img img {
+   
     position: relative;
     width: 100%;
     height: 100%;
@@ -227,6 +239,9 @@ button {
 .newsletter .comment{
   margin: auto;
 }
+.newsletter .comment h3{
+  text-align: start;
+}
 
 .newsletter .subscribe{
   margin: auto;
@@ -242,7 +257,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 80px;
-  padding-right: 100px;
+  
 }
 }
